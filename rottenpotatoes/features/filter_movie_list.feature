@@ -30,7 +30,6 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   # enter step to "submit" the search form on the homepage
   And I press "Refresh"
   # enter step(s) to ensure that PG and R movies are visible
-  Then I should see 5 movies
   And I should see "The Terminator"
   And I should see "When Harry Met Sally"
   And I should see "Amelie"
